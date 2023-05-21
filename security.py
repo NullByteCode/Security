@@ -1,3 +1,7 @@
+# O código a seguir foi desenvolvido em Python para a geração de senhas,
+# lista de senhas, hashes e codificação em base64.
+# GitHub: https://github.com/NullByteCode
+# Code by: SAYKE - ISL
 
 import base64
 import hashlib
