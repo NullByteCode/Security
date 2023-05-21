@@ -1,4 +1,3 @@
-# Programa desenvolvido para a criação de senhas e hashs
 
 import base64
 import hashlib
@@ -51,7 +50,7 @@ def passwd():
         sys.exit()
 
 
-def hashs():
+def hashes():
     try:
         print(line)
         mensagem = input("INSIRA O QUE DESEJA CRIPTOGRAFAR: ")
@@ -133,7 +132,7 @@ def main():
         print(logo)
         print(line)
         print("1 - GERADOR DE SENHAS")
-        print("2 - GERADOR DE HASHS")
+        print("2 - GERADOR DE HASHES")
         print("3 - GERAR CODIFICAÇÃO")
         print("4 - GERADOR DE LISTA DE SENHAS")
         print("0 - SAIR DO PROGRAMA")
