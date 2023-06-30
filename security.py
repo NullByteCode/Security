@@ -21,7 +21,7 @@ line = "---------------------------------------------------------------"
 
 
 OPTION_PASSWD = "1"
-OPTION_HASHS = "2"
+OPTION_HASHES = "2"
 OPTION_ENCODE = "3"
 OPTION_WORDLIST = "4"
 OPTION_QUIT = "0"
@@ -147,7 +147,7 @@ def main():
         if entry == OPTION_PASSWD:
             passwd()
         elif entry == OPTION_HASHS:
-            hashs()
+            hashes()
         elif entry == OPTION_ENCODE:
             encode()
         elif entry == OPTION_WORDLIST:
