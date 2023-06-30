@@ -146,7 +146,7 @@ def main():
 
         if entry == OPTION_PASSWD:
             passwd()
-        elif entry == OPTION_HASHS:
+        elif entry == OPTION_HASHES:
             hashes()
         elif entry == OPTION_ENCODE:
             encode()
